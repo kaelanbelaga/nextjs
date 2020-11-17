@@ -1,5 +1,29 @@
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
+
 import styles from '../styles/Home.module.css'
+
+const Test = dynamic(() => import('../components/test'))
+const Test2 = dynamic(() => import('../components/test2'))
+const Test3 = dynamic(() => import('../components/test3'))
+const Test4 = dynamic(() => import('../components/test4'))
+const Test5 = dynamic(() => import('../components/test5'))
+const Test6 = dynamic(() => import('../components/test6'))
+const Test7 = dynamic(() => import('../components/test7'))
+const Test8 = dynamic(() => import('../components/test8'))
+const Test9 = dynamic(() => import('../components/test9'))
+const Test10 = dynamic(() => import('../components/test10'))
+const Test11 = dynamic(() => import('../components/test11'))
+const Test12 = dynamic(() => import('../components/test12'))
+const Test13 = dynamic(() => import('../components/test13'))
+const Test14 = dynamic(() => import('../components/test14'))
+const Test15 = dynamic(() => import('../components/test15'))
+const Test16 = dynamic(() => import('../components/test16'))
+const Test17 = dynamic(() => import('../components/test17'))
+const Test18 = dynamic(() => import('../components/test18'))
+const Test19 = dynamic(() => import('../components/test19'))
+const Test20 = dynamic(() => import('../components/test20'))
+
 
 export default function Home() {
   return (
@@ -9,57 +33,27 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+      <Test />
+      <Test2 />
+      <Test3 />
+      <Test4 />
+      <Test5 />
+      <Test6 />
+      <Test7 />
+      <Test8 />
+      <Test9 />
+      <Test10 />
+      <Test11 />
+      <Test12 />
+      <Test13 />
+      <Test14 />
+      <Test15 />
+      <Test16 />
+      <Test17 />
+      <Test18 />
+      <Test19 />
+      <Test20 />
+      
     </div>
   )
 }

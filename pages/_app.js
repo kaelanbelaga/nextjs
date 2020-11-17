@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import LazyHydrate from "react-lazy-hydration";
 
 function MyApp({ Component, pageProps }) {
-  return <LazyHydrate ssrOnly><Component {...pageProps} /></LazyHydrate>
+  return <Component {...pageProps} />
 }
 
 export default MyApp
